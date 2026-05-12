@@ -20,8 +20,10 @@
 ### Автоматически (одной командой)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Nureble/VPSTuning/refs/heads/main/vpstuning.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/Nureble/VPSTuning/main/vpstuning.sh -o vpstuning.sh && sudo bash vpstuning.sh && rm vpstuning.sh
 ```
+
+После выполнения файл удаляется.
 
 ### Вручную
 
